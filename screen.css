@@ -12,12 +12,17 @@ body {
 }
 
 footer {
+  display: block;
   color: #CCC;
   position: absolute;
   bottom: 2em;
   text-align: center;
   width: 100%;
   font: 0.9em "Helvetica Neue", Arial, sans-serif;
+
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 footer a {
@@ -56,10 +61,6 @@ footer span {
   -webkit-animation: fadeIn ease-in 1;
   -moz-animation: fadeIn ease-in 1;
   animation: fadeIn ease-in 1;
-
-  webkit-animation-delay: 1s;
-  moz-animation-delay: 1s;
-  animation-delay: 1s;
   
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
